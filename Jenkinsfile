@@ -1,8 +1,7 @@
 #!/usr/bin/env groovy
 
-// Configure using microservice-pipelines and using "part2" branch
-@Library("microservice-pipelines@part2") _
+//configure using Jenkins-Shared-Libraries and using "part2" branch
+@Library("Jenkins-Shared-Libraries@part2") _
 
-// Entry point into microservice-pipelines
+// Entry point into Jenkins-Shared-Libraries
 jenkinsJob.call()
-

@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
 //configure using Jenkins-Shared-Libraries and using "part2" branch
-library ('Jenkins-Shared-Libraries@master')
+@Library ("Jenkins-Shared-Libraries@master") _
 
 // Entry point into Jenkins-Shared-Libraries
 node {

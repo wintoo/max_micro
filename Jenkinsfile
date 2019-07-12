@@ -4,4 +4,8 @@
 @Library ("Jenkins-Shared-Libraries@master") _
 
 // Entry point into Jenkins-Shared-Libraries
-cicd{ }
+node{
+  scm.call();
+  build.call();
+
+}
